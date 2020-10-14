@@ -1,0 +1,6 @@
+build
+build.xml
+.idea
+*.swp
+*~
+*.clt
