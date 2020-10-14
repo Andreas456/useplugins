@@ -2,7 +2,7 @@
 
 	<!-- Version Format: <compatible USE version>-r<n-th release for this USE version>
 	     e.g.: 4.0-r1 -->
-	<property name="use.version" value="5.1.0" />
+	<property name="use.version" value="5.2.0" />
 	<property name="release.number" value="1" />
 	
 	<property name="version" value="${use.version}-r${release.number}" />
@@ -69,6 +69,7 @@
 			<zipfileset src="lib/kodkod.jar" />
 			<zipfileset src="lib/log4j-1.2.17.jar" />
 			<zipfileset src="lib/org.sat4j.core.jar" />
+			<zipfileset src="lib/choco-solver-4.10.2.jar" />
 		</jar>
 	</target>
 
